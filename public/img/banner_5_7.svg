@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="998" height="270" viewBox="0 0 998 270">
+    <defs>
+        <filter id="anukgdz93a" width="103.5%" height="116%" x="-1.5%" y="-7%" filterUnits="objectBoundingBox">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+        </filter>
+        <filter id="p04gdeyvfc">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.200000 0 0 0 0 0.200000 0 0 0 0 0.200000 0 0 0 1.000000 0"/>
+        </filter>
+        <rect id="tujhbyofhb" width="920" height="200" x="0" y="0" rx="34"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g transform="translate(-492 -4790) translate(500 4798)">
+                    <use fill="#000" filter="url(#anukgdz93a)" xlink:href="#tujhbyofhb"/>
+                    <use fill="#FFDE58" xlink:href="#tujhbyofhb"/>
+                </g>
+                <text fill="#333" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="30" font-weight="bold" letter-spacing=".75" transform="translate(-492 -4790) translate(500 4798)">
+                    <tspan x="197.086" y="65">台湾最大手PChomeグループ運営なら</tspan>
+                </text>
+                <g filter="url(#p04gdeyvfc)" transform="translate(-492 -4790) translate(500 4798)">
+                    <g>
+                        <path fill="#000" fill-rule="nonzero" d="M138.799 115.597l-23.655-23.655 11.601-11.6c1.005-1.006 1.418-2.46 1.092-3.843-.327-1.384-1.346-2.5-2.695-2.949L55.536 50.348c-1.473-.491-3.099-.108-4.197.991-1.099 1.099-1.482 2.723-.991 4.197l23.202 69.606c.45 1.349 1.565 2.368 2.949 2.695 1.383.327 2.837-.086 3.842-1.092l11.602-11.6 23.654 23.654c.801.8 1.85 1.201 2.9 1.201 1.05 0 2.1-.4 2.9-1.201l17.402-17.402c1.602-1.602 1.602-4.198 0-5.8zm-20.302 14.501l-23.655-23.654c-1.601-1.602-4.199-1.602-5.8 0l-9.809 9.808-18.509-55.528 55.528 18.51-9.809 9.808c-1.6 1.6-1.601 4.2 0 5.8l23.655 23.655-11.601 11.601zM53.32 32.813c2.265 0 4.102-1.837 4.102-4.102V4.1C57.422 1.837 55.585 0 53.32 0c-2.265 0-4.101 1.836-4.101 4.102V28.71c0 2.265 1.836 4.102 4.101 4.102zM21.418 15.617c-1.602-1.602-4.2-1.602-5.8 0-1.603 1.602-1.603 4.199 0 5.8l17.4 17.402c1.602 1.602 4.2 1.602 5.801 0 1.602-1.602 1.602-4.199 0-5.8L21.418 15.617zM33.019 67.822L15.617 85.223c-1.602 1.602-1.602 4.199 0 5.8 1.602 1.602 4.199 1.602 5.8 0L38.82 73.623c1.602-1.602 1.602-4.199 0-5.8-1.602-1.602-4.199-1.602-5.8 0zM73.622 38.82l17.402-17.402c1.601-1.602 1.601-4.2 0-5.8-1.602-1.603-4.2-1.603-5.8 0l-17.402 17.4c-1.602 1.602-1.602 4.2 0 5.801 1.601 1.602 4.198 1.602 5.8 0zM32.813 53.32c0-2.265-1.837-4.101-4.102-4.101H4.1C1.837 49.219 0 51.055 0 53.32c0 2.265 1.836 4.102 4.102 4.102H28.71c2.265 0 4.102-1.837 4.102-4.102z" transform="translate(850 122)"/>
+                    </g>
+                </g>
+                <text fill="#FA0700" font-family="MicrosoftJhengHeiBold, Microsoft JhengHei" font-size="60" font-weight="bold" transform="translate(-492 -4790) translate(500 4798)">
+                    <tspan x="40" y="138">すべての壁を乗り越えられます</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

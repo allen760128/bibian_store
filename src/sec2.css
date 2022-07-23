@@ -1,0 +1,783 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+html body{
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 1px;
+    overflow-x: hidden;
+}
+h2{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+}
+h3{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 900;
+}   
+p{
+    color: #fff;
+    font-size: 24px;
+}
+/*--------------------------sec1---------------------------*/
+.sec2_1{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    overflow:hidden;
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+.sec2_1 .sec2_1Title{
+    position: absolute;
+    width: 80%;
+    padding: 80px 0 0px 0 ;
+    text-align: center;
+}
+.sec2_1 .sec2_1Title h2{
+    padding: 20px 0;
+}
+.sec2_1 .sec2_1Title h3{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 30px;
+    font-weight: 300;
+}
+.sec2_1 .sec2_1Title .feeWrap{
+    max-width: 732px;
+    height: 120px;
+    margin: 0 auto;
+    margin-top: 46px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sec2_1 .sec2_1Title .feeWrap .fee1,.fee2{
+    width: 325px;
+    height: 80px;
+    background-color: #ffda45;
+    border-radius:50px ;
+    margin: 0px 20px;
+}
+.sec2_1 .sec2_1Title .feeWrap .fee1 p,.fee2 p{
+    color: #333333;
+    text-align: center;
+    font-weight: 700;
+    line-height: 70px;
+    font-size: 36px;
+}
+.sec2_1 .sec2_1Title .feeWrap span{
+    color: red;
+    font-size: 60px;
+}
+/*--------------------------sec2---------------------------*/
+.sec2_2{
+    width: 100%;
+    height: 660px;
+    overflow:hidden; 
+    position: relative;
+}
+.sec2_2Content{
+    position: absolute;
+    padding: 165px 0 0 0;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.sec2_2 img{
+    width: auto;
+    height: 660px;
+}
+.sec2_2Content h2{
+    color: #000;
+}
+.sec2_2Content span{
+    font-size: 60px;
+    color: #2e4093;
+    font-weight: 700;
+}
+.sec2_2Content ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.sec2_2Content ul li{
+    font-size: 30px;
+    color: #333333;
+    font-weight: 600;
+    margin: 30px 20px;
+    border-bottom: 3px solid #2e4093;
+    padding-bottom: 20px;
+}
+/*--------------------------apply---------------------------*/
+.apply{
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+.applyWrap{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.applyWrap form{
+    width: 990px;
+    margin: 0 auto;
+    padding: 60px 70px 100px 70px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.applyWrap form p{
+    margin: 20px 0 20px 0;
+
+}
+.applyWrap form .title{
+    width: 250px;
+    height: 60px;
+    font-size: 26px;
+    font-weight: 600;
+    color: #121212;
+    line-height: 60px;
+}
+.applyWrap form .content{
+    width: 600px;
+    height: 60px;
+}
+.applyWrap form .content input{
+    border: solid 2px #bebebe;
+    border-radius: 8px;
+    width: 600px;
+    height: 60px;
+    background-color: #fafafa;
+    box-shadow: inset 1px 1px 2px 0 rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    padding-left: 10px;
+    outline:0;
+}
+.applyWrap form .contentRa{
+    width: 600px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 28px;
+    margin: 10px 0 10px 0;
+}
+.applyWrap form .contentRa input{
+    border:solid 2px #555555;
+    box-shadow: none;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+.applyWrap form .contentRa span{
+    margin-right: 20px;
+}
+.applyWrap form #sub{
+    margin: 0 auto;
+    width: 400px;
+    height: 80px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 120px;
+    background-image: linear-gradient(to bottom, #ffe846, #ffcc00 100%);
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.applyWrap  #pb{
+    border: solid 2px #bebebe;
+    border-radius: 8px;
+    width: 600px;
+    height: 140px;
+    background-color: #fafafa;
+    box-shadow: inset 1px 1px 2px 0 rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    padding: 5px 0 0 10px;
+    outline:0;
+}
+.applyWrap .content .ok{
+    font-size: 18px;
+    color: #55c08e;
+}
+.applyWrap .content form input:valid + .ok{
+    display: inline-block;
+}
+.applyWrap .content input:invalid + .ok{
+    display: none;
+}
+/*--------------------------proceed---------------------------*/
+.proceed{
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+    background-color: rgb(255, 237, 210);
+    position: relative;
+}
+.proceed .top{
+    width: 100%;
+    height: 140px;
+    background-color: #ffda45;
+    position: absolute;
+    z-index: 3;
+    text-align: center;
+}
+.proceed .proceedPic{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top:50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: 1;
+}
+.proceed .top h2{
+    line-height: 140px;
+}
+.proceed .middlebar{
+    width: 24px;
+    height: 864px;
+    border-radius: 12px;
+    background-color: #ffda45;
+    position: absolute;
+    left:0;
+    right:0;
+    margin: 0 auto;
+    top:0;
+    z-index: 1;
+}
+.proceed .proceedWrap {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+.proceed .proceedWrap ul{
+    position: absolute;
+    z-index:5;
+    padding-top: 150px;
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    align-items: center; 
+    left:0;
+    right:0;
+    margin: 0 auto;
+}
+.proceed .proceedWrap ul li{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+    border: solid 6px #ffffff;
+    margin: 40px 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.proceed .proceedWrap ul li:first-child{
+    background: url(img/proceed_1.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 60px 60px;
+    background-color: #ff9000;
+}
+.proceed .proceedWrap ul li:nth-child(2){
+    background: url(img/proceed_2.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 60px 60px;
+    background-color: #005f8b;
+}
+.proceed .proceedWrap ul li:nth-child(3){
+    background: url(img/proceed_3.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 60px 60px;
+    background-color: #008801;
+}
+.proceed .proceedWrap ul li:last-child{
+    background: url(img/proceed_4.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 60px 60px;
+    background-color: #dc0061;
+}
+.proceed .proceedWrap .taag p{
+    font-size: 30px;
+    color: #121212;
+    text-align: center;
+    font-weight: 700;
+    line-height: 100px;
+}
+.proceed .proceedWrap .taag .taagbac{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+    position: absolute;
+    width: 450px;
+    height: 100px;
+}
+.proceed .proceedWrap .taag .taag_1{
+    top:190px;
+    left:15%;
+}
+.proceed .proceedWrap .taag .taag_2{
+    top:370px;
+    right:15%;
+}
+.proceed .proceedWrap .taag .taag_3{
+    top:550px;
+    left:15%;
+    padding: 0 50px;
+}
+.proceed .proceedWrap .taag .taag_3 p{
+    line-height: 50px;
+}
+.proceed .proceedWrap .taag .taag_4{
+    top:730px;
+    right:15%;
+}
+
+
+
+@media (min-width:970px) and (max-width:1169px){
+/*--------------------------sec2---------------------------*/
+.sec2_2Content{
+    width: 100%;
+}
+/*--------------------------apply---------------------------*/
+.apply{
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+.applyWrap{
+    width: 800px;
+}
+.applyWrap form{
+    width: 100%;
+    margin: 0 auto;
+    padding: 60px 70px 100px 70px; 
+}
+.applyWrap form p{
+    margin: 20px 0 20px 0;
+}
+.applyWrap form .title{
+    width: 250px;
+    height: 60px;
+    font-size: 26px;
+    font-weight: 600;
+    color: #121212;
+    line-height: 60px;
+}
+.applyWrap form .content{
+    width: 800px;
+    height: 60px;
+}
+.applyWrap form .content input{
+    border: solid 2px #bebebe;
+    border-radius: 8px;
+    width: 100%;
+    height: 60px;
+    background-color: #fafafa;
+    box-shadow: inset 1px 1px 2px 0 rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    padding-left: 10px;
+    outline:0;
+}
+.applyWrap form .contentRa{
+    width: 600px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 28px;
+    margin: 10px 0 10px 0;
+}
+.applyWrap form .contentRa input{
+    border:solid 2px #555555;
+    box-shadow: none;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+.applyWrap form .contentRa span{
+    margin-right: 20px;
+}
+.applyWrap form #sub{
+    margin: 0 auto;
+    width: 400px;
+    height: 80px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 120px;
+    background-image: linear-gradient(to bottom, #ffe846, #ffcc00 100%);
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.applyWrap  #pb{
+    border: solid 2px #bebebe;
+    border-radius: 8px;
+    width: 600px;
+    height: 140px;
+    background-color: #fafafa;
+    box-shadow: inset 1px 1px 2px 0 rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    padding: 5px 0 0 10px;
+    outline:0;
+}
+.applyWrap .content .ok{
+    font-size: 18px;
+    color: #55c08e;
+}
+.applyWrap .content form input:valid + .ok{
+    display: inline-block;
+}
+.applyWrap .content input:invalid + .ok{
+    display: none;
+}
+/*--------------------------proceed---------------------------*/
+.proceed .proceedWrap .taag .taagbac{
+    width: 400px;
+}
+.proceed .proceedWrap .taag .taag_1{
+    left:5%;
+}
+.proceed .proceedWrap .taag .taag_2{
+    right:5%;
+}
+.proceed .proceedWrap .taag .taag_3{
+    left:5%;
+    padding: 5px 50px 0 50px;
+}
+.proceed .proceedWrap .taag .taag_3 p{
+    line-height: 30px;
+}
+.proceed .proceedWrap .taag .taag_4{
+    right:5%;
+}
+}
+
+
+
+@media  (min-width:769px) and (max-width:969px){
+h2{
+    font-size: 40px;
+}
+/*--------------------------sec1---------------------------*/
+.sec2_1{
+    height: 400px;
+}
+.sec2_1 .sec2_1Title{
+    width: 100%;
+    padding: 70px 0 0px 0 ;
+}
+.sec2_1 .sec2_1Title h3{
+    font-size: 24px;
+    padding: 14px 0;
+    margin-top: 15px;
+}
+.sec2_1 .sec2_1Title .feeWrap{
+    margin-top: 26px;
+}
+.sec2_1 .sec2_1Title .feeWrap .fee1,.fee2{
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    margin: 10px 20px;
+}
+.sec2_1 .sec2_1Title .feeWrap .fee1 p,.fee2 p{
+    line-height: 56px;
+    font-size: 26px;
+}
+.sec2_1 .sec2_1Title .feeWrap span{
+    font-size: 46px;
+}
+/*--------------------------sec2---------------------------*/
+.sec2_2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+.sec2_2Content{
+    padding: 35px 0 0 0;
+    width: 100%;
+}
+.sec2_2Content span{
+    font-size: 56px;
+}
+.sec2_2Content ul li{
+    font-size: 24px;
+}
+/*--------------------------apply---------------------------*/
+.apply{
+    padding-top: 65px;
+}
+.applyWrap{
+    width: 100%;
+}
+.applyWrap form .content{
+    width: 100%;
+    height: 60px;
+}
+.applyWrap form .content input{
+    width: 100%;
+    height: 60px;
+    margin-bottom: 30px;
+}
+.applyWrap form{
+    width: 100%;
+    height: auto;
+}
+.applyWrap form p{
+    margin: 20px 0 20px 0;
+}
+.applyWrap form .title{
+    font-size: 24px;
+}
+.applyWrap form #sub{
+    background-image: linear-gradient(to bottom, #ffe846, #ffcc00 100%);
+}
+/*--------------------------proceed---------------------------*/
+.proceed{
+    height: 900px;
+}
+.proceed .top{
+    height: 100px;
+}
+.proceed .top h2{
+    line-height: 100px;
+}
+.proceed .middlebar{
+    left:150px;
+    right: unset;
+}
+.proceed .proceedWrap ul{
+    left:110px;
+    right: unset;
+}
+.proceed .proceedWrap .taag p{
+    font-size: 24px;
+    line-height: 80px;
+}
+.proceed .proceedWrap .taag .taagbac{
+    width: 350px;
+    height: 80px;
+}
+.proceed .proceedWrap .taag .taag_1{
+    left:250px;
+}
+.proceed .proceedWrap .taag .taag_2{
+    top:375px;
+    left:250px;
+}
+.proceed .proceedWrap .taag .taag_3{
+    top:560px;
+    left:250px;
+    padding: 10px 50px 0 50px;
+}
+.proceed .proceedWrap .taag .taag_3 p{
+    line-height: 30px;
+}
+.proceed .proceedWrap .taag .taag_4{
+    top:740px;
+    left:250px;
+}
+}
+
+
+
+
+@media  (max-width:768px){
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 18px;
+}
+/*--------------------------sec1---------------------------*/
+.sec2_1{
+    height: 400px;
+}
+.sec2_1 .sec2_1Title{
+    width: 100%;
+    padding: 100px 0 0px 0 ;
+}
+.sec2_1 .sec2_1Title h3{
+    font-size: 20px;
+    font-weight: 300;
+}
+.sec2_1 .sec2_1Title .feeWrap{
+    max-width: 300px;
+    margin-top: 10px;
+}
+.sec2_1 .sec2_1Title .feeWrap .fee1,.fee2{
+    width: 250px;
+    height: 60px;
+    margin: 10px 20px;
+}
+.sec2_1 .sec2_1Title .feeWrap .fee1 p,.fee2 p{
+    line-height: 60px;
+    font-size: 26px;
+}
+.sec2_1 .sec2_1Title .feeWrap span{
+    font-size: 40px;
+}
+/*--------------------------sec2---------------------------*/
+.sec2_2{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    position: relative;
+    padding-bottom: 50px;
+}
+.sec2_2Content{
+    padding: 65px 0 0 0;
+}
+.sec2_2 img{
+    width: auto;
+    height: 660px;
+}
+.sec2_2Content span{
+    font-size: 50px;
+}
+.sec2_2Content ul{
+    margin-top: 30px;
+}
+
+.sec2_2Content ul li{
+    font-size: 20px;
+    margin: 15px 20px;
+    border-bottom: 2px solid #2e4093;
+    padding-bottom: 5px;
+}
+/*--------------------------apply---------------------------*/
+.apply{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.applyWrap{
+    width: 100%;
+}
+.applyWrap form{
+    width: 100%;
+    height: auto;
+    padding: 30px 20px 30px 20px; 
+}
+.applyWrap form p{
+    margin: 0px 0 0px 0;
+
+}
+.applyWrap form .title{
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+}
+.applyWrap form .content{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.applyWrap form .content input{
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+}
+.applyWrap form .contentRa{
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+}
+.applyWrap form #sub{
+    width: 300px;
+    height: 60px;
+    background-image: linear-gradient(to bottom, #ffe846, #ffcc00 100%);
+    font-size: 26px;
+}
+.applyWrap  #pb{
+    width: 100%;
+}
+/*--------------------------proceed---------------------------*/
+.proceed{
+    height: 700px;
+    position: relative;
+}
+.proceed .top{
+    height: 100px;
+}
+.proceed .top h2{
+    line-height: 100px;
+}
+.proceed .middlebar{
+    height: 664px;
+    left:60px;
+    position: absolute;
+    right:unset;
+}
+.proceed .proceedWrap ul{
+    left:30px;
+    right:unset;
+}
+.proceed .proceedWrap ul li{
+    width: 80px;
+    height: 80px;
+    border: solid 4px #ffffff;
+    margin: 20px 0;
+}
+.proceed .proceedWrap ul li:first-child{
+    background-size: 50px 50px;
+}
+.proceed .proceedWrap ul li:nth-child(2){
+    background-size: 50px 50px;
+}
+.proceed .proceedWrap ul li:nth-child(3){
+    background-size: 50px 50px;
+}
+.proceed .proceedWrap ul li:last-child{
+    background-size: 50px 50px;
+}
+.proceed .proceedWrap .taag p{
+    font-size: 20px;
+    line-height: 60px;
+}
+.proceed .proceedWrap .taag .taagbac{
+    width: 60%;
+    height: 60px;
+}
+.proceed .proceedWrap .taag .taag_1{
+    top:180px;
+    left:130px;
+}
+.proceed .proceedWrap .taag .taag_2{
+    top:300px;
+    right:0;
+    left:130px;
+}
+.proceed .proceedWrap .taag .taag_3{
+    top:420px;
+    left:130px;
+    padding: 3px 10px 0 10px;
+}
+.proceed .proceedWrap .taag .taag_3 p{
+    line-height: 20px;
+    padding-top: 5px;
+    align-items: center;
+}
+.proceed .proceedWrap .taag .taag_4{
+    top:540px;
+    right:0;
+    left:130px;
+}
+}

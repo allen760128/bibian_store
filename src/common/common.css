@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+html body{
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 1px;
+    overflow-x: hidden;
+}
+h2{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+}
+h3{
+    color: #fff;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 900;
+}   
+p{
+    color: #fff;
+    font-size: 24px;
+    line-height: 32px;
+}
+/*--------------------------btn---------------------------*/
+.btny{
+    width: 630px;
+    height: 136px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(to bottom, #ffd949 63%, #ffab0a);
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .btny a{
+    width: 630px;
+    height: 136px;
+    color: #333333;
+    font-size: 36px;
+    font-weight: 700;
+    display: block;
+    transition:0.5s all ease-in-out;
+  }
+  .btny a:hover{
+    color: #ff871c;
+    transition:0.5s all ease-in-out;
+  }
+  .btny .btnInner{
+    text-align: center;
+    padding-top: 30px;
+  }
+  .btny .btnInner i::before{
+    content:'';
+    display: inline-block;
+    background: url(../img/banner_3_3.svg);
+    background-repeat: no-repeat;
+    background-size: 80px 80px;
+    width: 80px;
+    height: 80px;
+    vertical-align: middle;
+  }
+  .btny .btnInner .btnInnerin{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .btny .btnInner .btnInnerin p{
+    font-size: 26px;
+    font-weight: 500;
+  }
+/*--------------------------header---------------------------*/
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    transition:0.3s all ease-in-out;
+  }
+  .header img{
+    height: 60px;
+  }
+  .header .xx{
+    display: none;
+  }
+  .header .nav ul{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header .nav ul li{
+    padding: 0 34px;
+  }
+  .header .nav ul li a{
+    display: block;
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    transition:0.3s all ease-in-out;
+  }
+  .header .nav ul li a:hover{
+    color: #fa6800;
+    transition:0.3s all ease-in-out;
+  }
+/*--------------------------footer---------------------------*/
+.footer{
+    width: 100%;
+    border-top:1px solid #ffda45;
+    padding-bottom: 50px;
+  }
+  .footer div{
+    width: 1160px;
+    margin: 0 auto;
+    
+  }
+  .footer h4{
+    padding-top: 35px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .footer h4 a{
+    color: #23c7ff    ;
+  }
+
+
+
+@media (min-width:970px) and (max-width:1169px){
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 28px;
+    line-height: 46px;
+}
+/*--------------------------footer---------------------------*/
+.footer div{
+    width: 970px;
+  }   
+}
+
+
+
+@media (min-width:769px) and (max-width:969px){
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+    line-height: 60px;
+}   
+p{
+    color: #fff;
+    font-size: 22px;
+    line-height: 32px;
+}
+/*--------------------------btn---------------------------*/
+.btny{
+    width: 530px;
+    margin-top: 20px;
+  }
+  .btny a{
+    width: 530px;
+  }
+/*--------------------------header---------------------------*/
+.header{
+    height: 80px;
+    padding: 0 20px;
+  }
+  .header .nav ul li{
+    padding: 0 17px;
+  }
+/*--------------------------footer---------------------------*/
+.footer div{
+    width: 95%;  
+  }
+}
+
+
+
+
+@media (max-width:768px){
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 18px;
+    line-height: 24px;
+}   
+p{
+    color: #fff;
+    font-size: 14px;
+    line-height: 32px;
+}
+/*--------------------------btn---------------------------*/
+.btny{
+    width: 300px;
+    height: 80px;
+}
+.btny a{
+    width: 300px;
+    height: 80px;
+    font-size: 24px;
+}
+.btny .btnInner{
+    text-align: center;
+    padding-top: 17px;
+    width: 100%;
+}
+.btny .btnInner i::before{
+    background-size: 50px 50px;
+    width: 50px;
+    height: 50px;
+}
+.btny .btnInner .btnInnerin p{
+    font-size: 16px;
+}
+/*--------------------------header---------------------------*/
+.header{
+    height: 50px;
+    position: fixed;
+    z-index: 999;
+    background-color: #fff;
+    padding: 0 15px;
+  }
+  .header img{
+    height: 40px;
+    padding: 0 0px;
+  }
+  .header .xx{
+    display: block;
+    width: 50px;
+    height: 50px;
+    right: 0;
+    top: 0;
+    padding-top: 4px;
+  }
+  .header .xx span{
+    display: block;
+    width: 40px;
+    height: 3px;
+    background-color: #121212;
+    left: 0;
+    transition: all 0.2s ease-in-out;
+    top:30px;
+    margin: 9px 0;
+  }
+  .active .xx_1{
+    transform:rotate(45deg) translate(10px, 8px);
+    left: 100px;
+  }
+  .active .xx_2{
+    opacity:0;
+  }
+  .active .xx_3{
+    transform:rotate(-45deg) translate(9px,-8px);
+  }
+  .active2 {
+    transform: translate(-300px,0px);
+  }
+  .header .nav{
+    display: block;
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background-color:rgb(255,255,255,0.95);
+    top: 50px;
+    z-index: 900;
+    right: -300px;
+    transition: all 0.2s ease-in-out;
+  }
+  .header .nav ul{
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .header .nav ul li{
+    margin: 0 auto;
+  }
+  .header .nav ul li a{
+    text-align: center;
+    width: 250px;
+    height: 80px;
+    line-height: 80px;
+    border-bottom: 1px solid rgb(161, 161, 161);
+  }
+  .model{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(161, 161, 161, 0.5);  
+    position: fixed;
+    right: -100%;
+    transition:0.2s all ease-in-out;
+    z-index: 100;
+  }
+  .model.active3{
+    right: 0;
+  }
+/*--------------------------footer---------------------------*/
+.footer{
+    width: 100%;
+    border-top:1px solid #ffda45;
+    padding-bottom: 50px;
+  }
+  .footer div{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .footer h4{
+    padding-top: 35px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .footer h4 a{
+    color: #23c7ff    ;
+  }
+}
